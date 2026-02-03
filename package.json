@@ -3,5 +3,12 @@
   "uuid": "0d05a414-2dd8-435c-9eab-cbc3b23b27d2",
   "creator": {
     "version": "3.8.8"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "0.34.6"
   }
 }
