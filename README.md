@@ -8,6 +8,17 @@
 4. 在 `Project -> Project Settings -> General -> Start Scene` 中设置 `Main.scene` 为启动场景。
 5. 点击运行即可。
 
+## 微信小游戏构建
+
+1. 在 Cocos Creator 中点击 `Project -> Build`。
+2. 选择平台 `wechatgame`，构建目录选择默认或自定义。
+3. 点击 Build 生成构建产物。
+4. 打开微信开发者工具，导入构建目录（例如 `build/wechatgame`）。
+
+说明：
+- AppID 已写入 `build-templates/wechatgame/project.config.json`（如需更换直接修改该文件）。
+- 构建时会自动生成 `project.config.json`，微信开发者工具会读取该配置。
+
 ## 关卡数据
 
 关卡配置位于：`assets/scripts/data/levels.ts`。
